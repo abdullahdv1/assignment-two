@@ -1,0 +1,5 @@
+@media (max-width: 420px) {
+    .single-blog {
+        width: 85%!important;
+    }
+}

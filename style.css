@@ -183,3 +183,198 @@ section {
 .logo-single img {
     width: 80%;
 }
+
+
+/* BLOG-SECTION */
+
+.blog-main {
+    width: 100%;
+    margin: auto;
+}
+
+.blog-head {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.blog-area {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-blog {
+    width: 28%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 17px 14px 38px #0000004f;
+    margin: 20px;
+}
+
+.single-heading h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.single-heading h2 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.single-icons-title {
+    margin-top: -36px;
+}
+
+.single-star {
+    width: 50%;
+    display: flex;
+}
+
+.single-star ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    width: 40%;
+    /* margin-bottom: 0px; */
+    line-height: 20px;
+}
+
+.single-star ul li a {
+    color: red;
+}
+
+.icon-title {
+    margin-left: 20px;
+    width: 45%;
+    font-size: 20px;
+    line-height: 5px;
+}
+
+.single-sub-title h2 {
+    margin: 0;
+    color: #7a7a87;
+    font-weight: 500;
+}
+
+.blog-btn {
+    width: 100%;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.blog-btn button {
+    border: none;
+    /* background: red; */
+    border-radius: 10px;
+    background: white;
+}
+
+.blog-btn button a.fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.blog-btn button a {
+    font-size: 27px;
+    color: #e54e85;
+    margin-right: 32px;
+    text-decoration: none;
+    background: white;
+}
+
+
+/* team */
+
+.team {
+    background: #f5f5f5;
+}
+
+.team-title {
+    width: 100%;
+}
+
+.team-title h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.team-wrap {
+    display: flex;
+}
+
+.team-single {
+    width: 24%;
+    margin: 40px 10px;
+    border-radius: 10px;
+    background: #2a2b2c;
+}
+
+.team-single img {
+    border-radius: 10px;
+}
+
+.team-single h3 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.team-single p {
+    color: #918c8c;
+    text-align: center;
+}
+
+
+/* footer */
+
+footer {
+    background: #0a0826;
+    padding: 60px 0;
+    width: 100%;
+    display: block;
+}
+
+.footer-wrap {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-wrap h3 {
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+    margin: 0;
+}
+
+.footer-wrap h4 {
+    font-size: 20px;
+    color: #b9b5b5;
+    font-weight: 100;
+    margin: 10px 0px;
+}
+
+.footer-social {
+    width: 23%;
+    margin: auto;
+}
+
+.footer-social ul {
+    display: flex;
+}
+
+.footer-social li {
+    list-style: none;
+}
+
+.footer-social a {
+    font-size: 25px;
+    color: white;
+    /* list-style: none; */
+    text-decoration: none;
+    margin: 19px;
+}
