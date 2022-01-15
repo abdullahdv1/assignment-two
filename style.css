@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* header */
+
+header {
+    background-color: white;
+    padding: 20px 0px;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+    display: flex;
+}
+
+.header-text {
+    width: 55%;
+}
+
+.header-text h2 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.header-menu {
+    width: 45%;
+    display: flex;
+}
+
+.header-menu ul {
+    list-style: none;
+    display: flex;
+    text-align: right;
+}
+
+.header-menu ul li {
+    text-align: right;
+}
+
+.header-menu ul li a {
+    font-size: 24px;
+    color: black;
+    padding: 4px 25px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header-menu a {
+    color: black;
+    font-size: 33px;
+    padding: 4px 10px;
+    line-height: 0px;
+}
+
+.fa,
+.fas {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+}
+
+
+/* hero-section */
+
+section {
+    margin: 50px 0px;
+}
+
+.hero-main-row {
+    width: 100%;
+    display: flex;
+}
+
+.hero-inner-row-left {
+    width: 45%;
+    padding: 74px 0px;
+}
+
+.hero-inner-row-right {
+    width: 55%;
+    height: 500px;
+}
+
+.hero-title {
+    font-size: 69px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.hero-pg {
+    width: 70%;
+    font-size: 20px;
+    color: black;
+    /* margin-top: 0px; */
+}
+
+.hero-btn {
+    background: #e02c6d;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.hero-btn i {
+    padding-left: 10px;
+}
+
+.hero-img {
+    width: 58%;
+    margin-left: 20%;
+}
+
+#hero-bg {
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* hero-logo-section */
+
+.hero-logo {
+    padding: 0;
+}
+
+.hero-logo-wrap {
+    width: 95%;
+    margin: auto;
+    border-top: 1px solid #dee5ec;
+    border-bottom: 1px solid #dee5ec;
+    display: flex;
+    padding: 40px 0px;
+}
+
+.logo-single {
+    width: 14%;
+}
+
+.logo-single1 {
+    margin-top: 22px;
+    width: 14%;
+}
+
+#alibaba {
+    width: 60%;
+    margin-left: 26px;
+}
+
+.logo-single2 {
+    margin-top: 34px;
+}
+
+.logo-single3 {
+    margin-top: 16px;
+}
+
+.logo-single4 {
+    margin-top: 12px;
+}
+
+.logo-single5 {
+    margin-top: 25px;
+}
+
+.logo-single6 {
+    margin-top: 26px;
+}
+
+.logo-single7 {
+    margin-top: 15px;
+}
+
+.logo-single img {
+    width: 80%;
+}
