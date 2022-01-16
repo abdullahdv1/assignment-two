@@ -1,5 +1,119 @@
-@media (max-width: 420px) {
+@media (max-width: 1080px) {
+    .team {
+        background: #f5f5f5;
+        width: 1440px;
+    }
+    footer {
+        background: #0a0826;
+        padding: 60px 0;
+        width: 1440px;
+        display: block;
+    }
+}
+
+@media (max-width: 780px) {
+    .team {
+        background: #f5f5f5;
+        width: 1440px!important;
+    }
+    .team-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .team-single {
+        width: 48%;
+        margin: 40px 10px;
+        border-radius: 10px;
+        background: #2a2b2c;
+        flex-wrap: wrap;
+    }
+    footer {
+        background: #0a0826;
+        padding: 60px 0;
+        width: 1440px;
+        display: block;
+    }
+    .footer-wrap {
+        width: 1440px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 430px) {
     .single-blog {
         width: 85%!important;
+    }
+    .hero-main-row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-inner-row-left {
+        width: 67%;
+        padding: 74px 0px;
+        order: 2;
+        text-align: center;
+        margin: auto;
+    }
+    .hero-inner-row-right {
+        width: 100%;
+        height: 500px;
+    }
+    .hero-img {
+        width: 40%;
+        margin-left: 27%;
+    }
+    .hero-title {
+        font-size: 67px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .hero-pg {
+        width: 70%;
+        font-size: 20px;
+        color: black;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .single-img-div {
+        width: 50%;
+        margin: auto;
+    }
+    .single-heading {
+        text-align: center;
+    }
+    .single-icons-title {
+        margin-top: -36px;
+        text-align: center;
+    }
+    .single-star {
+        width: 50%;
+        display: flex;
+        margin: auto;
+    }
+    .icon-title {
+        margin-left: 20px;
+        width: 6%;
+        font-size: 20px;
+        line-height: 5px;
+    }
+    .single-star ul {
+        display: flex;
+        list-style: none;
+        padding-left: 0px;
+        width: 50%;
+        line-height: 20px;
+        justify-content: flex-end;
+    }
+    .team-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .team-single {
+        width: 60%;
+        margin: 40px 10px;
+        border-radius: 10px;
+        background: #2a2b2c;
+        margin: 4% auto;
     }
 }

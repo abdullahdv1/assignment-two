@@ -3,6 +3,17 @@ body {
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
 img {
     width: 100%;
 }
@@ -48,10 +59,10 @@ header {
 }
 
 .header-menu ul li a {
-    font-size: 24px;
+    font-size: 20px;
     color: black;
     padding: 4px 25px;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -66,6 +77,7 @@ header {
 .fas {
     font-family: "Font Awesome 5 Pro";
     font-weight: 400;
+    padding-left: 10px;
 }
 
 
@@ -91,7 +103,7 @@ section {
 }
 
 .hero-title {
-    font-size: 69px;
+    font-size: 67px;
     width: 100%;
     margin-bottom: 0;
 }
@@ -109,6 +121,7 @@ section {
     border-radius: 20px;
     padding: 10px 20px;
     color: white;
+    font-weight: 600;
 }
 
 .hero-btn i {
@@ -216,10 +229,11 @@ section {
 .single-heading h1 {
     font-size: 40px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .single-heading h2 {
-    font-size: 40px;
+    font-size: 37px;
     font-weight: normal;
     margin-top: 0;
 }
@@ -237,7 +251,7 @@ section {
     display: flex;
     list-style: none;
     padding-left: 0px;
-    width: 40%;
+    width: 64%;
     /* margin-bottom: 0px; */
     line-height: 20px;
 }
@@ -322,6 +336,7 @@ section {
     font-size: 30px;
     color: white;
     margin-bottom: 0px;
+    font-weight: 500;
 }
 
 .team-single p {
